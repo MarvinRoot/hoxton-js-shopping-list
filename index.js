@@ -1,3 +1,4 @@
+//ADDING THE PRICES OF EVERY ITEM ON THE SHOPPING LIST 
 const milkPrice = 1.20
 const cocoaPrice = 2.00
 const saladPrice = 2.00
@@ -6,6 +7,7 @@ const tomatoesPrice = 2.50
 const readyMealsPrice = 5.00
 const totalPrice = milkPrice + cocoaPrice + saladPrice + carrotsPrice + tomatoesPrice + readyMealsPrice
 
+//CREATED AN ARRAY FOR THE SHOPPING LIST ITEMS
 const shoppingList = [
     `Milk at £ ${milkPrice}`, 
     `Cocoa at £ ${cocoaPrice}`, 
@@ -15,7 +17,7 @@ const shoppingList = [
     `Ready meals at £ ${readyMealsPrice}`
 ]
 
-
+//THE FIRST CONFIRMATION POP-UP THAT ASKS IF YOU LIKE TO ADD AN ITEM TO THE LIST
 const confirmation = confirm("Do you want to add an item to your shopping list?")
 
 if(confirmation) {
@@ -31,7 +33,7 @@ if(confirmation) {
         alert("Please enter correct values")
     }
 
-
+    //THE SECOND CONFIRMATION POP-UP
     const confirmation2 = confirm("Do you want to add an item to your shopping list?")
 
     if(confirmation2) {
@@ -48,7 +50,7 @@ if(confirmation) {
         }
 
 
-
+        //THE THIRD CONFIRMATION POP-UP
         const confirmation3 = confirm("Do you want to add an item to your shopping list?")
 
         if(confirmation3) {
